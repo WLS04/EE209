@@ -1,0 +1,13 @@
+20200628 JinWooGyeol
+Assignment3
+- I asked TA about strdup and free memory using TA session
+
+- compare Task1 and Task2 with register 10000 people.
+I can check Task2 is much faster.
+By using hash table, we can access to each person's UserInfo faster.
+It is because if we use array, we have to check all array to find such id or name.
+But if we use hash value and hash table, we can find each person's information in short linked list.
+However, when we are free each information, array can be faster because we have to free every linked list, name, id, and table. (if we use array, we just free each id and name)
+
+- I expand Hash Table by 'DB_T ExpandDB(DB_T d)' function in customer_manager2.c file
+- I spend about 4days
