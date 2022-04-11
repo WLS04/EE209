@@ -1,4 +1,4 @@
-CC = gcc209
+CC = gcc
 SUBMIT_DIR := .submit
 SUBMIT_FILES:= *.c *.h Makefile readme EthicsOath.pdf
 SUBMIT := $(STUDENT_ID)_assign5.tar.gz
